@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "GraphicsInputActions",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "a1388a90-4f65-4748-8651-13c890ec8f8b",
+            "actions": [
+                {
+                    "name": "Point",
+                    "type": "Value",
+                    "id": "1c1623a0-7e90-42e5-b3cc-3eefd453778a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "c58e5950-c2e3-4252-8ccb-68fad7a536f4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e58cb88e-cb07-4791-8641-9e830331515c",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Point",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b77aba58-23cb-44c8-9a37-335e59591ec3",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
